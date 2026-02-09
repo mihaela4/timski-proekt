@@ -1,0 +1,7 @@
+model,RMSE,MAE,MAPE
+Naive,6719.73,5712.1,16.74
+Seasonal Naive,4443.84,3578.15,10.2
+Prophet,3910.89,3320.3,9.8
+Random Forest,398.97,296.66,0.81
+XGBoost,422.41,330.06,0.89
+LightGBM,395.76,305.22,0.83
