@@ -200,32 +200,6 @@
    - Многу надворешни фактори
    - Различни шаблони по продавници
 
-### 5. Практични Препораки
-
-#### За Бизнис Апликации:
-```
-1. Започни со Prophet за брз baseline
-2. Ако Prophet дава >10% MAPE, пробај ML модели
-3. Користи ensemble (Prophet + XGBoost)
-4. Секогаш тествај Naive модел како проверка
-```
-
-#### За Production:
-```
-1. LightGBM за брзина и ниска меморија
-2. Сними го моделот и features pipeline
-3. Мониторирај перформанси со текот на времето
-4. Re-train периодично со нови податоци
-```
-
-#### За Истражување:
-```
-1. Тествај повеќе модели
-2. Користи cross-validation
-3. Анализирај грешки (кога моделот греши?)
-4. Experiment со различни features
-```
-
 ---
 
 ## 🔬 Технички Детали
@@ -271,22 +245,8 @@ weekly_seasonality = True
 daily_seasonality = True  # за часовни податоци
 ```
 
----
 
-## 📈 Споредбени Графикони
-
-### MAPE Across Datasets
-![MAPE Comparison](comparison_mape_by_dataset_FILTERED.png)
-
-### Best Model Performance
-![Best Models](best_models_comparison_IMPROVED.png)
-
-### Model Category Performance
-![Categories](model_category_comparison.png)
-
----
-
-## 💡 Научени Лекции
+## 💡 Лекции
 
 1. **Не постои универзален модел** - Секој датасет е различен
 2. **Baseline моделите се важни** - За проверка дали комплексноста има смисла
@@ -350,7 +310,5 @@ daily_seasonality = True  # за часовни податоци
 
 ---
 
-**Датум:** Јануари 2025  
-**Курс:** Машинско Учење / Временски Серии  
-**Институција:** [Вашата институција]
+
 
